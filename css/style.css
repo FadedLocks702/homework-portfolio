@@ -6,6 +6,7 @@
 	border-bottom: 10px solid;
 }
 
+
 .about-me-body {
 	border-top: 1px solid;
 	border-bottom: 1px solid;
@@ -17,13 +18,13 @@
 body {
 			font-family: 'Roboto', sans-serif;
 			margin: 20px;
-
 }
 
-.bulletpoint {
-		text-align: left;
-  		position: static;
-  		position: relative;
+img {
+	padding: 1px;
+	border: 1px solid #021a40;
+	background-color: white;
+
 }
 
 #navigation ul {
@@ -44,5 +45,5 @@ body {
 	background-color: #d3d3d3;
 	width: 870px;
 	padding: 10px;
-	margin: 0;
+	margin: auto;
 }
