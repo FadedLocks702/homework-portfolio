@@ -12,7 +12,6 @@
 	border-bottom: 1px solid;
 	padding: 5px;
 	margin: 5px;
-	text-align: justify;
 }
 
 body {
@@ -27,9 +26,20 @@ img {
 
 }
 
-#navigation ul {
-	margin: 0;
-	padding: 0;
+p {
+	display: block;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+header {
+	display: block;
+	margin-left: 20px;
+}
+
+mark {
+	background-color: red;
+	color: white;
 }
 
 #navigation ul li {
@@ -43,7 +53,7 @@ img {
 
 .about-me-whole-box {
 	background-color: #d3d3d3;
-	width: 870px;
+	width: 900px;
 	padding: 10px;
 	margin: auto;
 }
