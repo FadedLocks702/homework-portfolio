@@ -1,0 +1,54 @@
+
+.banner {
+	padding: 10px 0;
+	margin-top: 10px;
+	border-top: 10px solid;
+	border-bottom: 10px solid;
+}
+
+.about-me-body {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding: 5px;
+}
+
+body {
+			font-family: 'Roboto', sans-serif;
+			margin: 40px;
+
+}
+
+.bulletpoint {
+		text-align: left;
+  		position: static;
+  		position: relative;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li:not(:first-child):before {
+	content: " | ";
+}
+
+.about-me-whole-box {
+	background-color: #d3d3d3;
+	width: 870px;
+	padding: 10px;
+	margin: 0;
+}
+
+
+/*h1 {
+				color:blue;
+				background-color: red;
+				padding: 10px;
+				/*margin:10px;
+}*/
